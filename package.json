@@ -1,6 +1,6 @@
 {
-  "name": "gt511c3-fingerprint",
-  "version": "1.0.0",
+  "name": "gt511c3-fps",
+  "version": "0.0.1",
   "description": "",
   "main": "src/gt511c3.js",
   "scripts": {
