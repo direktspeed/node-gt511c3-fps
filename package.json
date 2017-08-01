@@ -2,9 +2,9 @@
   "name": "gt511c3-fingerprint",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/gt511c3.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
