@@ -18,7 +18,7 @@ var IMAGE_PATH = './';
 
 function printHelp() {
 	console.log("\n============================================================================================\n");
-	console.log("   GT511-C3 Test suite - Alberto Garbui\n");
+	console.log("   GT511-C3 Test suite - Frank Lemanschik <frank@dspeed.eu>\n");
 	console.log("   Usage:\n");
 	console.log("   [0]: exit");
 	console.log("   [1]: ledON");
