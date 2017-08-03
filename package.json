@@ -1,25 +1,25 @@
 {
   "name": "gt511c3-fps",
   "version": "0.0.1",
-  "description": "",
+  "description": "\"# node-gt511c3-fingerprint\"",
   "main": "src/gt511c3.js",
   "scripts": {
     "test": "mocha"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/direktspeed/node-gt511c3-fingerprint.git"
+    "url": "git+https://projects.dspeed.eu/peep/drivers/gt511c3-fps.git"
   },
   "bugs": {
-    "url": "https://github.com/direktspeed/node-gt511c3-fingerprint/issues"
+    "url": "https://projects.dspeed.eu/peep/drivers/gt511c3-fps/issues"
   },
-  "homepage": "https://github.com/direktspeed/node-gt511c3-fingerprint#readme",
+  "homepage": "https://projects.dspeed.eu/peep/drivers/gt511c3-fps#readme",
   "dependencies": {
     "socket.io-client": "^2.0.3",
     "async": "1.5.0",
     "promise": "7.0.4",
-    "serialport": "2.0.5"
+    "serialport": "^4.0.5"
   }
 }
