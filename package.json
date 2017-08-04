@@ -1,10 +1,13 @@
 {
   "name": "gt511c3-fps",
-  "version": "0.0.1",
-  "description": "\"# node-gt511c3-fingerprint\"",
+  "version": "0.0.2",
+  "description": "A Server that polls a emp800 & taiko JMC then emits Results via WebSockets",
   "main": "src/gt511c3.js",
   "scripts": {
-    "test": "mocha"
+    "build": "babel -d dist/ src/",
+    "test": "mocha --compilers js:babel-core/register",
+    "prepublish": "npm run test && npm run build",
+    "deploy": "npm run build && rsync -avzh ./ markus:/srv/drivers/gt511c3-fps"
   },
   "author": "",
   "license": "Apache-2.0",
@@ -20,6 +23,15 @@
     "socket.io-client": "^2.0.3",
     "async": "1.5.0",
     "promise": "7.0.4",
-    "serialport": "^4.0.5"
+    "serialport": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "mocha": "^3.5.0"
   }
 }

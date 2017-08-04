@@ -1,1 +1,0 @@
-"# node-gt511c3-fingerprint"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/direktspeed/node-gt511c3-fingerprint.gitgit push -u origin master
