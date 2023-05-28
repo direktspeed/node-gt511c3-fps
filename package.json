@@ -23,7 +23,7 @@
     "socket.io-client": "^3.0.0",
     "async": "^2.6.2",
     "promise": "^8.0.2",
-    "serialport": "^9.0.0"
+    "serialport": "^11.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
